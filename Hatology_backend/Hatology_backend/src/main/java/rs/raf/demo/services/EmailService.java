@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmailService {
 
-    @Autowired
+   /* @Autowired
     private JavaMailSender mailSender;
 
     public void sendEmail(String to, String subject, String body) {
@@ -18,5 +18,5 @@ public class EmailService {
         message.setText(body);
 
         mailSender.send(message);
-    }
+    }*/
 }

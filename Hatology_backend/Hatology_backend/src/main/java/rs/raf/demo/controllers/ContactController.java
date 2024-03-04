@@ -54,7 +54,7 @@ public class ContactController {
             c.setEmail(contact.getEmail());
             c.setComment(contact.getComment());
             contactService.save(c);
-            emailService.sendEmail(contact.getEmail(),"ODGOVOR","NEKI TEXT");
+//            emailService.sendEmail(contact.getEmail(),"ODGOVOR","NEKI TEXT");
                 return ResponseEntity.ok(HttpStatus.OK);
     }
 

@@ -82,7 +82,7 @@ public class OrdersController {
             o.setDateTime(formattedDate);
 
             ordersService.save(o);
-            emailService.sendEmail(orders.getEmail(),"ODGOVOR","NEKI TEXT");
+//            emailService.sendEmail(orders.getEmail(),"ODGOVOR","NEKI TEXT");
 
             return ResponseEntity.ok(HttpStatus.OK);
     }
